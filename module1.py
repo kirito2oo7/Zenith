@@ -42,12 +42,12 @@ DATABASE_URL = os.getenv('DATABASE_URL')
 # )
 db_pool = pool.SimpleConnectionPool(
     minconn=1,
-    maxconn=5,  # Adjust this based on your needs
+    maxconn=5,  # adjust as needed
     dbname="neondb",
     user="neondb_owner",
-    password="npg_tICD3d7ogBGq",
-    host="ep-winter-union-a2jhss06-pooler.eu-central-1.aws.neon.tech",
-    port="5432",  # Default PostgreSQL port
+    password="npg_Jc4Qiz8POUYy",
+    host="ep-orange-paper-agem8p43-pooler.c-2.eu-central-1.aws.neon.tech",
+    port="5432",
     sslmode="require"
 )
 
